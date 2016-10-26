@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title> Site Name
+</title>
+
+</head>
+
 <body>
 
 <h1>My First Google Map</h1>
@@ -14,10 +20,23 @@ function myMap() {
     zoom: 2
   }
   var map = new google.maps.Map(mapCanvas, mapOptions);
+
+  var Iceland = new google.maps.LatLng(64.963051, -19.020835); 
+
+  var marker = new google.maps.Marker({position:Iceland});
+  marker.setMap(map);
+
+ google.maps.event.addListener(marker,'click',function() {
+    var infowindow = new google.maps.InfoWindow({
+      content: "Iceland" + '<br>' + '<a href="/pages/iceland.html">' + "Iceland" +'</a>'
+    });
+  infowindow.open(map,marker);
+  });
+
 }
 </script>
-
 <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
 
 </body>
 </html>
