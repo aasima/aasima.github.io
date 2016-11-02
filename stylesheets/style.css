@@ -1,15 +1,11 @@
 .jumbotron {
+<<<<<<< HEAD
 	background: #fff2f2;
 
 }
 
 body {
 	background: #FFE7E7 ;
-}
-
-.container {
-	background: #FFE7E7;
-	
 }
 
 .container h1 {
@@ -46,4 +42,9 @@ body {
     position: absolute;
     right: 0px;
     padding: 10px;
+}
+
+.form {
+	padding: 10px;
+	text-align: center;
 }
