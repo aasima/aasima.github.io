@@ -60,6 +60,18 @@ function myMap() {
   infowindow.open(map,marker);
   });
 
+
+  var Myanmar = new google.maps.LatLng(21.9162, 95.9560);
+
+  var marker2 = new google.maps.Marker({position:Myanmar});
+  marker.setMap(map);
+
+  google.maps.event.addListener(marker2,'click',function() {
+    var infowindow = new google.maps.InfoWindow({
+      content:'<br>' + '<a href="pages/myanmar.html">' + '<img src="images/img_myanmar_one.jpg" width="100" height="80">'
+    }); +'</a>' 
+  infowindow.open(map,marker2);
+  });
 }
 
 </script>
