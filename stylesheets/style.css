@@ -1,3 +1,4 @@
+
 .jumbotron {
 	background: #fff2f2;
 }
@@ -43,7 +44,8 @@ body {
 }
 
 .form {
-	padding: 10px;
+	padding-top: 130px;
+	padding-bottom: 30px;	
 	text-align: center;
 }
 
@@ -52,6 +54,16 @@ body {
 	width: 500px;
 	height: 500px;
 }
+
+#map a {
+  color: black;
+  
+}
+
+#map h3 {
+	font-family: 'Lobster', cursive;
+}
+
 
 
 
