@@ -7,6 +7,14 @@ body {
 	background: #FFE7E7 ;
 }
 
+footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 10px;
+	background: #fff2f7;
+	text-align: center;
+}
+
 .container {
 	background: #FFE7E7;
 	
@@ -26,13 +34,14 @@ body {
     margin-bottom: 30px;
     width: relative;
     height: 600px;
-    color: inherit;
+    font-color: black;
     text-align: center;
     font-size: 20px;
 }
 
+
 .nav a {
-	font-size: 10px;
+	font-size: 15px;
 	color: black;
 
 }
@@ -47,3 +56,5 @@ body {
     right: 0px;
     padding: 10px;
 }
+
+
