@@ -64,13 +64,40 @@ function myMap() {
   var Myanmar = new google.maps.LatLng(21.9162, 95.9560);
 
   var marker2 = new google.maps.Marker({position:Myanmar});
-  marker.setMap(map);
+  marker2.setMap(map);
 
   google.maps.event.addListener(marker2,'click',function() {
     var infowindow = new google.maps.InfoWindow({
       content:'<br>' + '<a href="pages/myanmar.html">' + '<img src="images/img_myanmar_one.jpg" width="100" height="80">'
     }); +'</a>' 
   infowindow.open(map,marker2);
+  });
+
+
+
+  var China = new google.maps.LatLng(35.8617, 104.1954);
+
+  var marker3 = new google.maps.Marker({position:China});
+  marker3.setMap(map);
+
+  google.maps.event.addListener(marker3,'click',function() {
+    var infowindow = new google.maps.InfoWindow({
+      content:'<br>' + '<a href="pages/myanmar.html">' + '<img src="images/img_myanmar_one.jpg" width="100" height="80">'
+    }); +'</a>' 
+  infowindow.open(map,marker3);
+  });
+
+
+  var Spain = new google.maps.LatLng(40.416775, -3.7);
+
+  var marker4 = new google.maps.Marker({position:Spain});
+  marker4.setMap(map);
+
+  google.maps.event.addListener(marker4,'click',function() {
+    var infowindow = new google.maps.InfoWindow({
+      content:'<br>' + '<a href="pages/myanmar.html">' + '<img src="images/img_myanmar_one.jpg" width="100" height="80">'
+    }); +'</a>' 
+  infowindow.open(map,marker4);
   });
 }
 
