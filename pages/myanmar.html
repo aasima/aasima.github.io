@@ -8,8 +8,10 @@
 
 <link href='../dist/css/bootstrap.css' rel='stylesheet'>
 <link href="../stylesheets/style.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="../dist/js/bootstrap.min.js"> </script>
 <script src="https://use.fontawesome.com/dd478b8a54.js"></script>
-<script src="../dist/js/bootstrap.js"> </script>
+
 
 </head>
 
@@ -47,52 +49,79 @@
 
 </nav>
 
-<div class="jumbotron">
-	<h1 class="text-center"> Myanmar </h1>
-</div>
 
-
-<div id="carouselHattie" class="carousel slide" data-ride="carousel">
-  
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#carouselHattie" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselHattie" data-slide-to="1"></li>
-    <li data-target="#carouselHattie" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
 
-  
+  <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img class="first slide" src="../images/myanmar_original.jpg" alt="first slide">
+      <img class="first-slide" src="IMG_4.jpg" alt="Inle Lake">
+      <div class="container">
       <div class="carousel-caption">
-        ...
+        <h3> Inle Lake </h3>
+        <p> Taking a boat trip round the floating villages of Inle Lake </p>
       </div>
+    </div>
     </div>
     <div class="item">
-      <img class="second slide" src="../images/myanmar_two.jpg" alt="second slide">
+      <img class="second-slide" src="IMG_1715.jpg" alt="Yangon">
+      <div class="container">
       <div class="carousel-caption">
-        ...
+      	<h3> Yangon </h3>
+        <p> Yangon, known as Rangoon when occupied by the British under the Raj </p>
       </div>
     </div>
-    ...
+    </div>
+    
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carouselHattie" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carouselHattie" role="button" data-slide="next">
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 
+<div class="myanmarAbout">
+	<div class="row">
+		<div class="col-md-2"> </div>
+		<div class=col-md-8>
+			<h1 class="text-center"> Two weeks in Myanmar... </h1>
+
+			<p> </p>
+		</div>
+	</div>
+</div>
+
+<div class="aboutMe">
+
+	<div class="row">
+		<div class="col-md-4"> </div>
+
+		<div class="col-md-4">
+		   <img src='IMG_6.jpg' class="img-circle center-block" height="175" width="175">
+		      <p class="text-center"> Hattie went travelling for a while this year, before coming back home and trying to build websites. Here is the product of the two! <br>
+		      <small> @Hattie231 </small>
+		      </p>
+		</div>
+    </div> 
+
+      
+</div>
 
 </div>
-<script>
-$('.carousel').carousel()
-</script>
+
+<footer> Hattie Stamp, Aasima Pathan and Catrin Vincent &copy; 2016 </footer>
 </body>
 
 
