@@ -1,6 +1,5 @@
 .jumbotron {
 	background: #fff2f2;
-
 }
 
 body {
@@ -62,5 +61,81 @@ footer {
 .form {
 	padding: 10px;
 	text-align: center;
+}
+
+.background-for-text {
+background-color: #FFE7E7 ; opacity: 0.8 ;
+}
+
+#country-info {
+	text-align: left;
+}
+
+ #myCarousel {
+      width: 700px;
+      height: 400px;
+      display: block;
+    }
+
+    #myCarousel div div img { 
+      width: 700px; 
+      height: 400px; 
+    }
+
+
+@media (max-width: 700px){
+
+.container h1 {
+	font-size: 40px;
+}
+
+.nav a {
+	font-size: 12px;
+}
+
+ #myCarousel {
+      width: 300px;
+      height: 200px;
+      display: block;
+    }
+
+    #myCarousel div div img { 
+      width: auto; 
+      height: 200px; 
+    }
+
+    .catrinclass {
+    height: 400px;
+
+}
+
+h3 {
+	font-size: 18px;
+}
+
+li {
+	text-align: left;
+	font-size: 15px;
+}
+
+p {
+	font-size: 15px;
+}
+
+textarea {
+	max-width: 280px;
+	font-size: 15px;
+}
+
+select {
+	font-size: 15px;
+}
+
+input {
+	font-size: 15px;
+}
+
+button {
+	font-size: 15px;
 }
 
