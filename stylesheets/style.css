@@ -71,14 +71,19 @@ background-color: #FFE7E7 ; opacity: 0.8 ;
 	text-align: left;
 }
 
-#myCarousel {
-	height: 400px; 
-	max-height: 250px;
-}
+ #myCarousel {
+      width: 700px;
+      height: 400px;
+      display: block;
+    }
+
+    #myCarousel div div img { 
+      width: 700px; 
+      height: 400px; 
+    }
 
 
-
-@media (max-width: 500px){
+@media (max-width: 700px){
 
 .container h1 {
 	font-size: 40px;
@@ -86,6 +91,22 @@ background-color: #FFE7E7 ; opacity: 0.8 ;
 
 .nav a {
 	font-size: 12px;
+}
+
+ #myCarousel {
+      width: 300px;
+      height: 200px;
+      display: block;
+    }
+
+    #myCarousel div div img { 
+      width: auto; 
+      height: 200px; 
+    }
+
+    .catrinclass {
+    height: 400px;
+
 }
 
 h3 {
@@ -117,3 +138,4 @@ input {
 button {
 	font-size: 15px;
 }
+
