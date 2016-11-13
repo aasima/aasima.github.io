@@ -63,3 +63,57 @@ footer {
 	text-align: center;
 }
 
+.background-for-text {
+background-color: #FFE7E7 ; opacity: 0.8 ;
+}
+
+#country-info {
+	text-align: left;
+}
+
+#myCarousel {
+	height: 400px; 
+	max-height: 250px;
+}
+
+
+
+@media (max-width: 500px){
+
+.container h1 {
+	font-size: 40px;
+}
+
+.nav a {
+	font-size: 12px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+li {
+	text-align: left;
+	font-size: 15px;
+}
+
+p {
+	font-size: 15px;
+}
+
+textarea {
+	max-width: 280px;
+	font-size: 15px;
+}
+
+select {
+	font-size: 15px;
+}
+
+input {
+	font-size: 15px;
+}
+
+button {
+	font-size: 15px;
+}
