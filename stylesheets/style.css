@@ -30,8 +30,7 @@ footer {
 	background: url(../world_pink.jpg);
 	size: cover;
 	padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+	margin-bottom: 50px;
     width: relative;
     height: 600px;
     font-color: black;
@@ -57,14 +56,26 @@ footer {
     padding: 10px;
 }
 
+#map {
+	margin-bottom: 50px;
+}
+#map a {
+  color: black;
+  
+}
 
+#map h3 {
+	font-family: 'Lobster', cursive;
+
+}
 .form {
 	padding: 10px;
 	text-align: center;
 }
 
 .background-for-text {
-background-color: #FFE7E7 ; opacity: 0.8 ;
+	padding-top: 100px;	
+	background-color: #FFE7E7 ; opacity: 0.8 ;
 }
 
 #country-info {
