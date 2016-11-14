@@ -89,14 +89,16 @@ footer {
 }
 
  #myCarousel {
-      width: 700px;
-      height: 400px;
+ 	  margin-bottom: 50px;
+	  margin-left: 170px;
+      width: 810px;
+      height: 610px;
       display: block;
     }
 
     #myCarousel div div img { 
-      width: 700px; 
-      height: 400px; 
+      width: 800px; 
+      height: 600px; 
     }
 
 #carousel-example-generic {
