@@ -80,6 +80,7 @@ footer {
 
 #country-info {
 	text-align: left;
+	margin-bottom: 50px;
 }
 
  #myCarousel {
@@ -92,6 +93,10 @@ footer {
       width: 700px; 
       height: 400px; 
     }
+
+#carousel-example-generic {
+	margin-bottom: 50px;
+}
 
 
 @media (max-width: 700px){
