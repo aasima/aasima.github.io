@@ -1,3 +1,4 @@
+
 .jumbotron {
 	background: #fff2f2;
 }
@@ -6,19 +7,17 @@ body {
 	background: #FFE7E7 ;
 }
 
-
 footer {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 10px;
-	background: #fff2f7;
+	background: #FFE7E7;
 	text-align: center;
-}
 
 .container {
-	background: #FFE7E7;
-	
+	background: #FFE7E7;	
 }
+
 
 .container h1 {
 	font-size: 80px;
@@ -29,7 +28,7 @@ footer {
 .catrinclass {
 	background: url(../world_pink.jpg);
 	size: cover;
-	padding-top: 30px;
+	padding-top: 150px;
     padding-bottom: 30px;
     margin-bottom: 30px;
     width: relative;
@@ -59,9 +58,25 @@ footer {
 
 
 .form {
-	padding: 10px;
+	padding-top: 130px;
+	padding-bottom: 30px;	
 	text-align: center;
 }
+
+#map a {
+  color: black;
+  
+}
+
+#map h3 {
+	font-family: 'Lobster', cursive;
+}
+
+.aboutMe {
+	padding: 5px 20px 20px 20px;
+	margin: 100px 0px 0px 0px;
+}
+
 
 .background-for-text {
 background-color: #FFE7E7 ; opacity: 0.8 ;
@@ -138,4 +153,5 @@ input {
 button {
 	font-size: 15px;
 }
+
 
