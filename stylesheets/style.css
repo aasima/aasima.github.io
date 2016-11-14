@@ -16,7 +16,7 @@ footer {
 }
 
 .container {
-	background: #FFE7E7;
+	background: #FFE7e7;
 	
 }
 
@@ -55,6 +55,11 @@ footer {
     right: 0px;
     margin: 10px;
 }
+.country {
+	background:url(../world_pink.jpg);
+	background-size: cover;
+	padding-bottom: 100px;
+}
 
 #map {
 	margin-bottom: 50px;
@@ -84,14 +89,16 @@ footer {
 }
 
  #myCarousel {
-      width: 700px;
-      height: 400px;
+ 	  margin-bottom: 50px;
+	  margin-left: 170px;
+      width: 810px;
+      height: 610px;
       display: block;
     }
 
     #myCarousel div div img { 
-      width: 700px; 
-      height: 400px; 
+      width: 800px; 
+      height: 600px; 
     }
 
 #carousel-example-generic {
