@@ -2,12 +2,18 @@
 <html lang="en-UK">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="60">
 <title>Map My Travel
 </title>
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src="instafeed.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href='dist/css/bootstrap.css' rel='stylesheet'>
 <link href='dist/css/bootstrap-social.css' rel='stylesheet'>
+<link href='font-awesome/css/font-awesome.css' rel='stylesheet'>
+<link href='font-awesome/css/font-awesome.min.css' rel='stylesheet'>
 <link href="stylesheets/style.css" rel="stylesheet">
 <script src="https://use.fontawesome.com/dd478b8a54.js"></script>
 <script src="dist/js/bootstrap.js"> </script> 
@@ -16,7 +22,6 @@
 </head>
 
 <body>
-
 <div class="container">
 
 <nav class="navbar navbar-fixed">
@@ -56,6 +61,8 @@
 
 </div>
 
+
+
 <div id="map" style="width:100%;height:500px"></div>
 
 <script>
@@ -81,7 +88,9 @@ function myMap() {
 
   var Myanmar = new google.maps.LatLng(21.9162, 95.9560);
 
-  var marker2= new google.maps.Marker({position:Myanmar});
+
+  var marker2 = new google.maps.Marker({position:Myanmar});
+
   marker2.setMap(map);
 
   google.maps.event.addListener(marker2,'click',function() {
@@ -90,10 +99,35 @@ function myMap() {
     }); +'</a>' 
   infowindow.open(map,marker2);
   });
-}
 
+  var China = new google.maps.LatLng(35.8617, 104.1954);
+
+  var marker3 = new google.maps.Marker({position:China});
+  marker3.setMap(map);
+
+  google.maps.event.addListener(marker3,'click',function() {
+    var infowindow = new google.maps.InfoWindow({
+      content:'<br>' + '<a href="pages/china.html">' + '<img src="images/china.jpg" width="100" height="80">'
+    }); +'</a>' 
+  infowindow.open(map,marker3);
+  });
+
+
+  var Spain = new google.maps.LatLng(40.416775, -3.7);
+
+  var marker4 = new google.maps.Marker({position:Spain});
+  marker4.setMap(map);
+
+  google.maps.event.addListener(marker4,'click',function() {
+    var infowindow = new google.maps.InfoWindow({
+      content:'<br>' + '<a href="pages/spain.html">' + '<img src="images/spain2.jpg" width="100" height="80">'
+    }); +'</a>' 
+  infowindow.open(map,marker4);
+  });
+}
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<footer> Hattie Stamp, Aasima Pathan and Catrin Vincent &copy; 2016</footer>
 
 </div>
 </body>
