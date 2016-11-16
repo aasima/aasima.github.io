@@ -144,6 +144,9 @@ footer {
     height: 400px;
 
 }
+.right {
+	display: none;
+}
 
 #carousel-example-generic {
 	 width: 310px;
