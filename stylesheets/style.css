@@ -132,7 +132,7 @@ footer {
       width: 300px;
       height: 200px;
       display: block;
-      margin: 35px;
+      margin-left: 35px;
     }
 
     #myCarousel div div img { 
@@ -152,7 +152,7 @@ footer {
 	 width: 310px;
       height: 210px;
       display: block;
-      margin: 35px;
+      margin-left: 35px;
     }
 
     #carousel-example-generic img { 
